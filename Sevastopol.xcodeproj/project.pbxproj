@@ -11,6 +11,23 @@
 		C229BC432A1FF48A0017D4F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229BC422A1FF48A0017D4F3 /* ContentView.swift */; };
 		C229BC452A1FF48C0017D4F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C229BC442A1FF48C0017D4F3 /* Assets.xcassets */; };
 		C229BC482A1FF48C0017D4F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C229BC472A1FF48C0017D4F3 /* Preview Assets.xcassets */; };
+		C229BC502A1FF54A0017D4F3 /* PlacesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229BC4F2A1FF54A0017D4F3 /* PlacesView.swift */; };
+		C229BC522A1FF7B90017D4F3 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229BC512A1FF7B90017D4F3 /* CityView.swift */; };
+		C229BC542A1FF8210017D4F3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229BC532A1FF8210017D4F3 /* MapView.swift */; };
+		C229BC572A1FF8AF0017D4F3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C229BC562A1FF8AF0017D4F3 /* Launch Screen.storyboard */; };
+		C229BC5A2A1FFC4A0017D4F3 /* sights.json in Resources */ = {isa = PBXBuildFile; fileRef = C229BC592A1FFC4A0017D4F3 /* sights.json */; };
+		C229BC5C2A1FFC550017D4F3 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = C229BC5B2A1FFC550017D4F3 /* locations.json */; };
+		C229BC5E2A1FFC5D0017D4F3 /* sevastopol.json in Resources */ = {isa = PBXBuildFile; fileRef = C229BC5D2A1FFC5D0017D4F3 /* sevastopol.json */; };
+		C229BC612A1FFCC00017D4F3 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229BC602A1FFCC00017D4F3 /* Places.swift */; };
+		C229BC642A1FFE620017D4F3 /* CodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229BC632A1FFE620017D4F3 /* CodableExtension.swift */; };
+		C2540FB02A2138C6003B9C11 /* PlacesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2540FAF2A2138C6003B9C11 /* PlacesListView.swift */; };
+		C2540FB22A2142B7003B9C11 /* PlaceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2540FB12A2142B6003B9C11 /* PlaceDetailView.swift */; };
+		C2540FB42A214678003B9C11 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2540FB32A214678003B9C11 /* GalleryView.swift */; };
+		C2540FB62A228F25003B9C11 /* Sevastopol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2540FB52A228F25003B9C11 /* Sevastopol.swift */; };
+		C2540FB82A229038003B9C11 /* CityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2540FB72A229038003B9C11 /* CityDetailsView.swift */; };
+		C2540FBA2A23E3A6003B9C11 /* MapDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2540FB92A23E3A6003B9C11 /* MapDetailView.swift */; };
+		C2540FBC2A23E9D1003B9C11 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2540FBB2A23E9D1003B9C11 /* Location.swift */; };
+		C28C36F82A38D62F00A3E67B /* AnnotationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28C36F72A38D62F00A3E67B /* AnnotationMapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,23 @@
 		C229BC422A1FF48A0017D4F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C229BC442A1FF48C0017D4F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C229BC472A1FF48C0017D4F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C229BC4F2A1FF54A0017D4F3 /* PlacesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesView.swift; sourceTree = "<group>"; };
+		C229BC512A1FF7B90017D4F3 /* CityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityView.swift; sourceTree = "<group>"; };
+		C229BC532A1FF8210017D4F3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		C229BC562A1FF8AF0017D4F3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C229BC592A1FFC4A0017D4F3 /* sights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sights.json; path = data/sights.json; sourceTree = SOURCE_ROOT; };
+		C229BC5B2A1FFC550017D4F3 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = locations.json; path = data/locations.json; sourceTree = SOURCE_ROOT; };
+		C229BC5D2A1FFC5D0017D4F3 /* sevastopol.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = sevastopol.json; path = data/sevastopol.json; sourceTree = SOURCE_ROOT; };
+		C229BC602A1FFCC00017D4F3 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		C229BC632A1FFE620017D4F3 /* CodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableExtension.swift; sourceTree = "<group>"; };
+		C2540FAF2A2138C6003B9C11 /* PlacesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesListView.swift; sourceTree = "<group>"; };
+		C2540FB12A2142B6003B9C11 /* PlaceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailView.swift; sourceTree = "<group>"; };
+		C2540FB32A214678003B9C11 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		C2540FB52A228F25003B9C11 /* Sevastopol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sevastopol.swift; sourceTree = "<group>"; };
+		C2540FB72A229038003B9C11 /* CityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsView.swift; sourceTree = "<group>"; };
+		C2540FB92A23E3A6003B9C11 /* MapDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailView.swift; sourceTree = "<group>"; };
+		C2540FBB2A23E9D1003B9C11 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		C28C36F72A38D62F00A3E67B /* AnnotationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +86,12 @@
 			isa = PBXGroup;
 			children = (
 				C229BC402A1FF48A0017D4F3 /* SevastopolApp.swift */,
-				C229BC422A1FF48A0017D4F3 /* ContentView.swift */,
+				C229BC4E2A1FF5330017D4F3 /* App */,
+				C229BC5F2A1FFC8D0017D4F3 /* Models */,
+				C229BC552A1FF87F0017D4F3 /* LaunchScreen */,
+				C229BC582A1FFBE80017D4F3 /* Data */,
+				C229BC622A1FFE280017D4F3 /* Extension */,
+				C2540FAE2A21388C003B9C11 /* Views */,
 				C229BC442A1FF48C0017D4F3 /* Assets.xcassets */,
 				C229BC462A1FF48C0017D4F3 /* Preview Content */,
 			);
@@ -65,6 +104,66 @@
 				C229BC472A1FF48C0017D4F3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C229BC4E2A1FF5330017D4F3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C229BC422A1FF48A0017D4F3 /* ContentView.swift */,
+				C229BC4F2A1FF54A0017D4F3 /* PlacesView.swift */,
+				C229BC512A1FF7B90017D4F3 /* CityView.swift */,
+				C229BC532A1FF8210017D4F3 /* MapView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C229BC552A1FF87F0017D4F3 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C229BC562A1FF8AF0017D4F3 /* Launch Screen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		C229BC582A1FFBE80017D4F3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C229BC592A1FFC4A0017D4F3 /* sights.json */,
+				C229BC5B2A1FFC550017D4F3 /* locations.json */,
+				C229BC5D2A1FFC5D0017D4F3 /* sevastopol.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C229BC5F2A1FFC8D0017D4F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C229BC602A1FFCC00017D4F3 /* Places.swift */,
+				C2540FB52A228F25003B9C11 /* Sevastopol.swift */,
+				C2540FBB2A23E9D1003B9C11 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C229BC622A1FFE280017D4F3 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C229BC632A1FFE620017D4F3 /* CodableExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C2540FAE2A21388C003B9C11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C2540FAF2A2138C6003B9C11 /* PlacesListView.swift */,
+				C2540FB12A2142B6003B9C11 /* PlaceDetailView.swift */,
+				C2540FB32A214678003B9C11 /* GalleryView.swift */,
+				C2540FB72A229038003B9C11 /* CityDetailsView.swift */,
+				C2540FB92A23E3A6003B9C11 /* MapDetailView.swift */,
+				C28C36F72A38D62F00A3E67B /* AnnotationMapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +224,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C229BC572A1FF8AF0017D4F3 /* Launch Screen.storyboard in Resources */,
+				C229BC5A2A1FFC4A0017D4F3 /* sights.json in Resources */,
+				C229BC5C2A1FFC550017D4F3 /* locations.json in Resources */,
 				C229BC482A1FF48C0017D4F3 /* Preview Assets.xcassets in Resources */,
 				C229BC452A1FF48C0017D4F3 /* Assets.xcassets in Resources */,
+				C229BC5E2A1FFC5D0017D4F3 /* sevastopol.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +240,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2540FB62A228F25003B9C11 /* Sevastopol.swift in Sources */,
+				C229BC642A1FFE620017D4F3 /* CodableExtension.swift in Sources */,
 				C229BC432A1FF48A0017D4F3 /* ContentView.swift in Sources */,
+				C229BC522A1FF7B90017D4F3 /* CityView.swift in Sources */,
+				C229BC542A1FF8210017D4F3 /* MapView.swift in Sources */,
+				C2540FB22A2142B7003B9C11 /* PlaceDetailView.swift in Sources */,
+				C2540FBC2A23E9D1003B9C11 /* Location.swift in Sources */,
+				C2540FB82A229038003B9C11 /* CityDetailsView.swift in Sources */,
+				C28C36F82A38D62F00A3E67B /* AnnotationMapView.swift in Sources */,
 				C229BC412A1FF48A0017D4F3 /* SevastopolApp.swift in Sources */,
+				C2540FBA2A23E3A6003B9C11 /* MapDetailView.swift in Sources */,
+				C229BC502A1FF54A0017D4F3 /* PlacesView.swift in Sources */,
+				C2540FB02A2138C6003B9C11 /* PlacesListView.swift in Sources */,
+				C229BC612A1FFCC00017D4F3 /* Places.swift in Sources */,
+				C2540FB42A214678003B9C11 /* GalleryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +389,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -282,9 +399,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Snow.Sevastopol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +422,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -311,9 +432,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Snow.Sevastopol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
