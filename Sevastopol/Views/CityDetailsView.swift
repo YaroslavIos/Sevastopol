@@ -20,6 +20,8 @@ struct CityDetailsView: View {
                 Label("Герб Севастополя", systemImage: "flag.2.crossed.circle")
                     .font(.title)
                     .foregroundColor(.accentColor)
+            }
+            VStack(alignment: .center) {
                 Image(city.image)
                     .resizable()
                     .frame(width: 240, height: 240)
